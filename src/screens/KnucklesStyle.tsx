@@ -7,13 +7,15 @@ export const styles = StyleSheet.create({
     flex:1,
     justifyContent:'flex-start',
     alignItems:'center',
-    backgroundColor:'white',
+    backgroundColor:'red',
     paddingTop: '20%',
     gap:20
 },
   botao:{
-    width: 50,
-    height: 30,
+    borderRadius:"5%",
+    width: 100,
+    padding: 5,
+    backgroundColor:"gray"
   },
   botaoSonic:{
     borderRadius:"5%",

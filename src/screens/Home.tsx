@@ -23,19 +23,19 @@ export function Home({navigation}:any) {
       <Text style={styles.titulo}>Personagens de Sonic</Text>
       <Image source={require('../../assets/capa.png')} />
       
-        <Pressable style={styles.botao} onPress={navToSonic}>
+        <Pressable style={styles.botaoSonic}  onPress={navToSonic}>
           <Text style={styles.textoBotao}>Sonic</Text>
         </Pressable>
 
-        <Pressable style={styles.botao} onPress={navToTails}>
+        <Pressable style={styles.botaoTails} onPress={navToTails}>
           <Text style={styles.textoBotao}>Tails</Text>
         </Pressable>
 
-        <Pressable style={styles.botao} onPress={navToKnuckles}>
+        <Pressable style={styles.botaoKnuckles} onPress={navToKnuckles}>
           <Text style={styles.textoBotao}>Knuckles</Text>
         </Pressable>
 
-        <Pressable style={styles.botao} onPress={navToAmy}>
+        <Pressable style={styles.botaoAmy} onPress={navToAmy}>
           <Text style={styles.textoBotao}>Amy</Text>
         </Pressable>
 

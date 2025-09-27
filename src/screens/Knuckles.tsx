@@ -1,5 +1,5 @@
 import { View, Text, Image, Pressable } from "react-native";
-import { styles } from "./HomeStyle";
+import { styles } from "./KnucklesStyle";
 
 export function Knuckles({ navigation }: any) {
 

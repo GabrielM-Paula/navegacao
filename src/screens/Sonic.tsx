@@ -1,5 +1,5 @@
 import { View, Text, Image, Pressable } from "react-native";
-import { styles } from "./HomeStyle";
+import { styles } from "./SonicStyle";
 
 export function Sonic({ navigation }: any){
 
@@ -13,7 +13,7 @@ export function Sonic({ navigation }: any){
       <Text style={styles.titulo}>Sonic the Hedgehog</Text>
       <Image source={require("../../assets/sonic.png")} style={{ width: 150, height: 150, resizeMode: "contain" }} />
 
-      <Text style={{ margin: 20, fontSize: 16, textAlign: "center" }}>
+      <Text style={{ margin: 20, fontSize: 16, textAlign: "center", color:"white" }}>
         O ouriço azul mais veloz do mundo! Ele é corajoso e luta contra Dr. Eggman para proteger seus amigos.
       </Text>
 
